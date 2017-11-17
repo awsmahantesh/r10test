@@ -1,5 +1,5 @@
 #site.pp
 
-node 'puppetagent1.localdomain' {
-include role:webserver
+node default {
+class {"concat::test":}
 }
